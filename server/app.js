@@ -14,9 +14,9 @@ import  course from './routes/course.js'
 import formidable from  'express-formidable';
 // const cors = require('cors');
 // const allowedOrigins = ["http://TheCodebuzz.com", "http://TheCodebuzz.test.com","http://localhost:3000/","http://localhost:300","http://localhost:5400","http://localhost:300","http://localhost/:10"];
-const allowedOrigins= ["http://localhost:3000","http://localhost:300"];
 
 config();
+const allowedOrigins= ["http://localhost:3000","http://localhost:300",process.env.FRONTEND_URL];
 // const PORT=process.env.PORT;
 // console.log(PORT);
 const app = express();
@@ -34,10 +34,11 @@ const app = express();
 // app.use(upload.none());  
 // app.use(express.json())
 // const formidable = require('express-formidable');
+console.log(process.env.FRONTEND_URL);
 app.use(
     cors({
         credentials: true,
-        origin: "http://localhost:3000",
+        origin: ["http://localhost:3000",process.env.FRONTEND_URL]
     })
 );
 // app.use(function(req, res, next) {
