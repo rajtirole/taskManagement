@@ -14,3 +14,9 @@ app.listen(5400,async()=>{
     await db()
     console.log(`app listen on ${PORT}`);
 })
+app.get('/test',(req,res)=>{
+    res.status(200).json({
+        success: true,
+        message: course,
+      });
+})
