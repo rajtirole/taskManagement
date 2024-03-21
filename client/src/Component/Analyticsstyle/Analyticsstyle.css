@@ -1,0 +1,112 @@
+.analytics{
+   
+   font-weight: 400;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   align-items:center;
+   justify-content: space-around;
+   width: 80%;
+
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    gap:20px;
+}
+.circale{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #90C4CC;
+
+}
+.first{
+    width: 450px;
+    height: 280px;
+    background-color:#F9FCFF;
+    border-radius: 15px;
+}
+.second{
+  
+    width: 450px;
+    height: 280px;
+    background-color:#F9FCFF;
+    border-radius: 15px;
+}
+.divset{
+     margin: 50px;
+     display: flex;
+    width: auto;
+    height: 5px;
+}
+.text{
+    margin-left: 7px;
+    position: relative;
+    top: -10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.text2{
+    margin-left: 7px;
+    position: relative;
+    top: -10px;
+    left: 200px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.text3{
+    margin-left: 7px;
+    position: relative;
+    top: -9px;
+    left: 217px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.text4{
+    margin-left: 7px;
+    position: relative;
+    top: -9px;
+    left: 183px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.text5{
+    margin-left: 7px;
+    position: relative;
+    top: -9px;
+    left: 225px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.text6{
+    margin-left: 7px;
+    position: relative;
+    top: -9px;
+    left: 156px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.text7{
+    margin-left: 7px;
+    position: relative;
+    top: -9px;
+    left: 198px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.text8{
+    margin-left: 7px;
+    position: relative;
+    top: -9px;
+    left: 187px;
+    font-size: 18px;
+    font-weight: 600;
+
+}

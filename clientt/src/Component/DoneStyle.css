@@ -1,0 +1,21 @@
+.done{
+    min-width: 20vw;
+    
+    width: 30vw;
+    height: 95%;
+    background-color:  #EEF2F5;
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    
+}
+.heading3{
+    position: relative;
+    left: 15px;
+}
+.collap3{
+    position: relative;
+    top: 20px;
+    right: 20px;
+}

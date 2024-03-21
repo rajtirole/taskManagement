@@ -1,0 +1,20 @@
+.progres{
+    min-width: 20vw;
+    
+    width: 30vw;
+    height: 95%;
+    background-color:  #EEF2F5;
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.heading4{
+    position: relative;
+    left: 15px;
+}
+.collap4{
+    position: relative;
+    top: 20px;
+    right: 20px;
+}

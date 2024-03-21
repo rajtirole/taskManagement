@@ -1,0 +1,143 @@
+.modal{
+     width: 100vw;
+     height: 100vh;
+     position: fixed;
+     top: 0;
+     left: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgba(0, 0, 0, 0.5);
+}
+.container{
+    width: 60vw;
+    height: 60vh;
+   border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+    gap: 20px;
+    padding: 30px 20px;
+}
+.title{
+    /* margin-left: 20px; */
+    font-size: 20px;
+    font-weight: 700;
+    margin:0;
+    padding: 0;
+    
+}
+.inputfiald{
+    /* width: 630px; */
+    min-height: 40px;
+    /* margin-left: 17px;
+    padding-left: 20px; */
+    /* position: relative; */
+    /* top: -27px; */
+    border: 0.5px solid black;
+    border-radius: 10px;
+    width: 90%;
+}
+.priority{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   width: 90%;
+}
+.priority h4{
+    /* margin-left: 23px; */
+    /* position: relative; */
+    /* top: -30px; */
+    margin: 0;
+    padding: 0;
+}
+.imgdiv{
+/* margin-left: 20px;
+position: relative;
+top: -10px; */
+}
+.checklist{
+    /* position: relative;
+    top: -40px;
+    left: 20px; */
+    /* width: 90%; */
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+.checklist>h3{
+    margin: 0;
+    padding: 0;
+}
+.div1{
+    /* width: 90%; */
+    height: 50px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.575) ;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding:0 10px;
+   
+}
+.div2{
+    /* height: 40%; */
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0 20px;
+    /* max-height: 100px; *
+    /
+}
+.addbtn{
+    /* position: fixed; */
+    width: 90%;
+}
+.footerbtn{
+  /* position: fixed; */
+   top: 80%;
+   display: flex;
+   justify-content: space-evenly;
+   /* width: 90%; */
+}
+.select{
+    /* margin-left: 20px; */
+    border: none;
+    width: 200px;
+    height:50px ;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #707070;
+}
+.cancel{
+    /* margin-left: 60px; */
+    border: none;
+    width: 185px;
+    height:45px ;
+    border: 2px solid red;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    color: red;
+
+}
+.save{
+    /* margin-left: 30px; */
+    border: none;
+    width: 185px;
+    height:45px ;
+    background-color: #17A2B8;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+
+}
+.delete-btn{
+    border: none;
+    background-color: white;
+}

@@ -1,0 +1,40 @@
+.todo{
+    min-width: 20vw;
+    
+    width: 30vw;
+    height: 95%;
+    background-color:  #EEF2F5;
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.heading{
+    font-size: 15px;
+    position: relative;
+    /* left: -26px; */
+    top: -4px;
+}
+.plus{
+    position: relative;
+    left: 90px;
+    top: 20px;
+}
+.collap{
+    position: relative;
+    top: 18px;
+    left: 23px;
+}
+.todoo{
+    background-color: #ffff;
+    border-radius: 20px;
+    border: none;
+    border-width: 0px 0px 0px 0px;
+
+border-style: solid;
+margin: 5px;
+
+border-color: #000000;
+
+
+}
